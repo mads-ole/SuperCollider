@@ -4,20 +4,19 @@ s.meter;
 //ggf. notwendig
 s.options.memSize = 8192 * 32;
 
-
+//5 verschiedene Audiodateien für Buffer einfügen
 //Buffer initialisieren
-//gerne auch Austauschen der Buffer
 (
 (
-~b = Buffer.read(s, "/Users/madsoleclasen/Desktop/Flötenkreis--BtW1xjNkFTo.wav");
+~b = Buffer.read(s, "pfad zu audiofile hier einfügen");
 
-~c = Buffer.read(s, "/Users/madsoleclasen/Documents/SAMPLES/good drums/The Kount/The Kount - Sample Pack Vol. 2/THE_KOUNT_tonal/THE_KOUNT_tonal_loops/THE_KOUNT_82_rhodes_loop_mystery_Fmin.wav");
+~c = Buffer.read(s, "pfad zu audiofile hier einfügen");
 
-~d = Buffer.read(s, "/Users/madsoleclasen/Documents/SAMPLES/good drums/The Kount/The Kount - Sample Pack Vol. 2/THE_KOUNT_tonal/THE_KOUNT_tonal_loops/THE_KOUNT_118_synth_loop_sneaky_Dmin.wav");
+~d = Buffer.read(s, "pfad zu audiofile hier einfügen");
 
-~e = Buffer.read(s, "/Users/madsoleclasen/Documents/SAMPLES/good drums/The Kount/The Kount - Sample Pack Vol. 2/THE_KOUNT_tonal/THE_KOUNT_tonal_loops/THE_KOUNT_104_flute_loop_willpower.wav");
+~e = Buffer.read(s, "pfad zu audiofile hier einfügen");
 
-~f = Buffer.read(s, "/Users/madsoleclasen/Documents/SAMPLES/good drums/The Kount/The Kount - Sample Pack Vol. 2/THE_KOUNT_tonal/THE_KOUNT_tonal_loops/THE_KOUNT_141_synth_loop_lost_G.wav");
+~f = Buffer.read(s, "pfad zu audiofile hier einfügen");
 );
 
 (
